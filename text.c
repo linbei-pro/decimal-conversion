@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-//非递归实现
+//闈為�掑綊鏂规硶
 const char f[] = "0123456789ABCDEF";
 void fun1(int n, int m)
 {
@@ -19,7 +19,7 @@ void fun1(int n, int m)
 		printf("%c", a[i]);
 }
 
-//递归实现
+//閫掑綊鏂规硶
 void fun(int n, int m)
 {
 	if (n < m)
